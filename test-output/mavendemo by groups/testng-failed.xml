@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [mavendemo by groups]">
+  <test verbose="2" name="GRP-aa">
+    <groups>
+      <run>
+        <include name="aa"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.scp.login.LoginPositiveTest"/>
+      <class name="com.scp.invoice.I1Test"/>
+    </classes>
+  </test> <!-- GRP-aa -->
+</suite> <!-- Failed suite [mavendemo by groups] -->
