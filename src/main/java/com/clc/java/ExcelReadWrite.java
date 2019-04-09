@@ -27,10 +27,9 @@ public class ExcelReadWrite {
 	}
 	
 	public static void main(String[] args) throws InvalidFormatException, IOException {
-		//10 -- int
-		//10.0 -- double
-	//	new ExcelReadWrite().m1(10.0,10.0);
 		
+		
+		System.out.println("Git Changes");
 		List<UserInfo> listOfUsers = new ArrayList<UserInfo>();
 		UserInfo userinfo = null;
 		for(int i=0;i<100;i++){
