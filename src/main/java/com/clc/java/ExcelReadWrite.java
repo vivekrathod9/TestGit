@@ -30,6 +30,7 @@ public class ExcelReadWrite {
 		
 		
 		System.out.println("Git Changes");
+		System.out.println("Git Changes");
 		List<UserInfo> listOfUsers = new ArrayList<UserInfo>();
 		UserInfo userinfo = null;
 		for(int i=0;i<100;i++){
